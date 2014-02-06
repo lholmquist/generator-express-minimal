@@ -3,5 +3,5 @@ node_js:
   - '0.10'
 before_install:
   - currentfolder=${PWD##*/}
-  - if [ "$currentfolder" != 'generator-express-simple' ]; then cd .. && eval "mv $currentfolder generator-express-simple" && cd generator-express-simple; fi
+  - if [ "$currentfolder" != 'generator-express-minimal' ]; then cd .. && eval "mv $currentfolder generator-express-minimal" && cd generator-express-minimal; fi
 

@@ -5,7 +5,7 @@ var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
 
 
-var ExpressSimpleGenerator = yeoman.generators.Base.extend({
+var ExpressMinimalGenerator = yeoman.generators.Base.extend({
   init: function () {
     this.pkg = yeoman.file.readJSON(path.join(__dirname, '../package.json'));
 
@@ -59,4 +59,4 @@ var ExpressSimpleGenerator = yeoman.generators.Base.extend({
   }
 });
 
-module.exports = ExpressSimpleGenerator;
+module.exports = ExpressMinimalGenerator;

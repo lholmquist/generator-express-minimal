@@ -1,4 +1,4 @@
-# generator-express-simple [![Build Status](https://secure.travis-ci.org/lholmquist/generator-express-simple.png?branch=master)](https://travis-ci.org/lholmquist/generator-express-simple)
+# generator-express-simple [![Build Status](https://secure.travis-ci.org/lholmquist/generator-express-minimal.png?branch=master)](https://travis-ci.org/lholmquist/generator-express-minimal)
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -6,13 +6,13 @@
 To install generator-express-simple from npm, run:
 
 ```
-$ npm install -g generator-express-simple
+$ npm install -g generator-express-minimal
 ```
 
 Finally, initiate the generator:
 
 ```
-$ yo express-simple
+$ yo express-minimal
 ```
 
 ### Getting To Know Yeoman

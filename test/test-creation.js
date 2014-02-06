@@ -3,14 +3,14 @@
 var path = require('path');
 var helpers = require('yeoman-generator').test;
 
-describe('express-simple generator', function () {
+describe('express-minimal generator', function () {
   beforeEach(function (done) {
     helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
       if (err) {
         return done(err);
       }
 
-      this.app = helpers.createGenerator('express-simple:app', [
+      this.app = helpers.createGenerator('express-minimal:app', [
         '../../app'
       ]);
       done();
@@ -24,9 +24,9 @@ describe('express-simple generator', function () {
       '.editorconfig'
     ];
 
-    helpers.mockPrompt(this.app, {
-      'someOption': true
-    });
+    // helpers.mockPrompt(this.app, {
+    //   'someOption': true
+    // });
     this.app.options['skip-install'] = true;
     this.app.run({}, function () {
       helpers.assertFile(expected);
